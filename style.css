@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    padding: 20px;
+    color: white;
+}
+
+.profile-title h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #99ccff;
+}
+
+
+section {
+    padding: 60px 20px;
+    margin: 20px 0;
+    background-color: #e6f2ff;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #003366, #99ccff); /* Gradasi warna biru */
+    color: white;
+}
+
+.intro {
+    max-width: 600px;
+    margin-left: 30px;
+}
+
+.photo img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #99ccff;
+}
+
+.intro h1 {
+    font-family: 'Arima', sans-serif;
+    font-weight: 700;
+}
+
+nav button, nav a {
+    font-family: 'Arima', sans-serif; 
+}
+
+h2, h3, h4 { 
+    font-family: 'Arima', sans-serif; 
+}
+
